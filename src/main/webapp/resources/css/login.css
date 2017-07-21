@@ -1,0 +1,43 @@
+.demo-lg{
+	width:100%; height:100%;    
+	filter:alpha(opacity=100 finishopacity=50 style=1 startx=0,starty=0) progid:DXImageTransform.Microsoft.gradient(startcolorstr=#2366fe,endcolorstr=#82a8fe,gradientType=0);
+    -ms-filter:alpha(opacity=100 finishopacity=50 style=1 startx=0,starty=0) progid:DXImageTransform.Microsoft.gradient(startcolorstr=#2366fe,endcolorstr=#82a8fe,gradientType=0);/*IE8*/	
+    background:#2366fe; /*Don't support the background gradient*/  
+    background:-moz-linear-gradient(top, #2366fe, #82a8fe);  
+    background:-webkit-gradient(linear, 0% 0%, 0% 100%, from(#2366fe), to(#82a8fe));  
+    background:-o-linear-gradient(top, #2366fe, #82a8fe); 
+}
+input[type=text], input[type=password] {
+    border: 1px solid #dddedf;
+    padding: .5em;
+    font-size: 14px;
+    width: 100%;
+    box-sizing: border-box;
+    box-shadow: none!important;
+    -webkit-box-shadow: none!important;
+    margin-bottom: 10px;
+}
+.icon-lock {
+    background: url(../images/login_icons.png) no-repeat -22px 8px;
+    height: 30px;
+    width: 30px;
+    display: block;
+}
+@media only screen and (max-width: 767px) {
+	.login {width: 320px;}
+}
+@media only screen and (min-width: 768px) {
+	.login {width: 480px;}
+}
+.login {
+    padding: 20px 40px 20px ;
+    text-align: center;
+    margin: 30px auto 20px;
+    overflow: hidden;
+    padding-bottom: 210px;
+    color:#fff;
+}
+.login form {
+    text-align: left;
+    padding: 0;
+}

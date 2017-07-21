@@ -1,0 +1,15 @@
+# eclipse
+**/*.classpath
+**/*.project
+**/.settings*
+
+# IDEA
+**/*.iml
+**/.idea*
+
+# java
+**/*.jar
+**/target/*
+
+# log
+**/log/*
